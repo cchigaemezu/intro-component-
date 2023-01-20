@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+    width: 100wh;
+}
+
+.description {
+    background-image: url('./images/bg-intro-mobile.png');
+    background-color: hsl(0, 100%, 74%);
+    margin: 30px 80px;
+    height: 100vh;
+}
+
+h2 {
+    color: white;
+    font-family: "Poppins";
+    padding-top: 40px;
+    font-size: 16px;
+    text-align: center;
+    margin: 20px;
+}
+
+p {
+    color: white;
+    font-family: "Poppins";
+    text-align: center;
+    font-size: 9px;
+    margin: 20px;
+    
+}
+button {
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin-bottom: 0;
+    padding: 15px;
+    width: 90%;
+    margin-left: 10px;
+}
+
+.bold {
+    font-weight: bold;
+    color: white;
+    font-size: 12px;
+    
+}
+.price {
+    font-size: 10px;
+    font-family: "poppins";
+}
+
+.main-description {
+    font-family: "poppins";
+    background-color: white;
+    margin: 10px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: hsl(154, 59%, 51%);
+    width: 90%;
+    margin: 1px;
+    color: white;
+    padding: 10px;
+    font-family: "poppins";
+    margin-bottom: 10px;
+}
+
+form input {   
+    padding: 15px 10px;
+    margin: 5px 0;
+    width: 90%;
+    border: 1px solid hsl(246, 25%, 77%);
+    font-family: "poppins";
+    font-size: 10px;
+    font-weight: 900%;
+    border-radius: 3px;
+}
+
+h3 {
+    font-size: 9px;
+    color: rgb(230, 227, 227);
+    padding-bottom: 15px;
+}
+
+.color {
+    color: hsl(0, 100%, 74%);
+    font-size: 9px;
+    
+}
+
+@media(min-width: 700px) {
+    body {
+        display: flex;
+        background-image: url('./images/bg-intro-mobile.png');
+        background-color: hsl(0, 100%, 74%);
+    }
+        
+    h2 {
+        font-size: 30px;
+        padding-top: 3px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    button {
+        width: 95.50%;
+       
+    }
+
+    form input {
+        margin: 9px 0px;
+    }
+
+    .bold {
+        font-size: 15px;
+    }
+
+    .price {
+        font-size: 15px;
+    }
+}
+
+@media(min-width: 1440px) {
+    .description {
+        margin: 40px;
+        display: flex;
+        justify-content: center;
+        height: auto;
+    }
+
+    h2 {
+        font-size: 10px;
+        padding: 10px;
+        margin-top: 300px;
+        font-size: 70px;
+        text-align: left;
+    }
+
+    p {
+        font-size: 5px;
+        letter-spacing: 1px;
+        font-size: 20px;
+        text-align: left;
+       
+    }
+    button {
+        width: 95%;
+        height: 10%;
+        margin-top: 300px;
+        font-size: 20px;
+       margin-right: 8px;
+    }
+
+    .body {
+        width: 970px;
+        padding-bottom: 90px;
+        
+    }
+    .letters {
+        width: 100%;
+    }
+    form input {
+        height: 90px;
+        font-size: 20px;
+        width: 85%;
+        border-radius: 10px;
+    }
+
+    button {
+        font-size: 20px;
+        margin-top: 90px;
+    }
+}
